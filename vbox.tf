@@ -1,5 +1,5 @@
 resource "virtualbox_vm" "ubuntu_vm" { 
-  name      = "Ubuntu_Cloud_VM"
+  name      = "ubuntu_vm"
   image     = "https://app.vagrantup.com/ubuntu/boxes/bionic64/versions/20180903.0.0/providers/virtualbox.box"
   cpus      = 2
   memory    = "2048 mib"  # 2 GB RAM
